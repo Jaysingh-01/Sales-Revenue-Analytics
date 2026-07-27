@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+.venv/
+env/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data (keep sales_data.csv tracked; exclude large exports)
+data/*.xlsx
+data/*.parquet
+
+# Models (optional - uncomment to exclude from git)
+# models/*.pkl
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Docker
+*.log
